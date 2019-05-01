@@ -1,5 +1,5 @@
 - name: ping test
-  hosts: {{ Hosts }}
+  hosts: "{{ Hosts }}"
   gather_facts: false
   tasks:
     - name: ping testing
